@@ -4,6 +4,7 @@ package fdenisnascimento.retrofit
  * Created by Denis on 18/05/17.
  */
 
+import fdenisnascimento.retrofit.model.RedditNewsResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -14,4 +15,6 @@ interface RedditApi {
     fun getTop(@Query("after") after: String,
                @Query("limit") limit: String)
             : Call<RedditNewsResponse>
+
+
 }

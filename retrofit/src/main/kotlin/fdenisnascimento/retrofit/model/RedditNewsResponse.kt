@@ -1,4 +1,4 @@
-package fdenisnascimento.reddit.model
+package fdenisnascimento.retrofit.model
 
 /**
  * Created by Denis on 18/05/17.
